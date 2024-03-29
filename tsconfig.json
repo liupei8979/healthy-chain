@@ -15,6 +15,12 @@
 		"preserveValueImports": false,
 		"verbatimModuleSyntax": true,
 		"ignoreDeprecations": "5.0",
-		"noImplicitAny": false
+		"noImplicitAny": false,
+		"paths": {
+			"@src": ["./src"],
+			"@src/*": ["./src/*"],
+			"$lib": ["./src/lib"],
+			"$lib/*": ["./src/lib/*"]
+		}
 	}
 }

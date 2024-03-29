@@ -1,0 +1,28 @@
+$header-height: 3rem;
+$frame-header-height: 3rem;
+
+$drawer-max-width: 14rem;
+$drawer-min-width: 4rem;
+
+$drawer-footer-height: 64px;
+$drawer-list-height: calc(100% - #{$header-height} - #{$drawer-footer-height});
+
+$anim-duration: 0.3s;
+
+$vis-default-axis-height: 3rem;
+$vis-default-axis-width: 3rem;
+
+$component-height-xs: 1.3rem;
+$component-height-sm: 1.6rem;
+$component-height-md: 2rem;
+$component-height-lg: 2.6rem;
+$component-height-xl: 3rem;
+
+$component-font-size-xs: 0.7rem;
+$component-font-size-sm: 0.8rem;
+$component-font-size-md: 1rem;
+$component-font-size-lg: 1.2rem;
+$component-font-size-xl: 1.4rem;
+
+$z-index-modal: 10000;
+$z-index-tip: 1000;
